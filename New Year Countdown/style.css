@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create background and style text */
+body {
+  background-image: url(https://images.pexels.com/photos/1268667/pexels-photo-1268667.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  color: #fff;
+  font-family: "RocknRoll One", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Add a Dark Overlay */
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Bring Texts Forward */
+body * {
+  z-index: 1;
+}
+
+/* Adjust Heading */
+h1 {
+  font-size: 60px;
+  margin: -100px 40px 0;
+}
+
+/* Show Year on Background */
+.year {
+  z-index: -1;
+  opacity: 0.4;
+  font-size: 170px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Arrange Countdown Section */
+.countdown {
+  display: flex;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.time h2 {
+  margin: 0 0 5px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .time {
+    font-size: smaller;
+  }
+}
