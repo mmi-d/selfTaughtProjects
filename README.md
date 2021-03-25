@@ -1,2 +1,0 @@
-# selfTaughtProjects
- Udemy, Youtube, Etc.
