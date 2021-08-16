@@ -1,4 +1,4 @@
-// just to see if the change is working
+// just to see if the change is working on the new branch
 import React, { useState } from "react";
 import {
   Box,
@@ -14,7 +14,7 @@ import { FormClose, Notification } from "grommet-icons";
 const theme = {
   global: {
     colors: {
-      brand: "#2288e6",
+      brand: "#2287e6",
     },
     font: {
       family: "Roboto",
