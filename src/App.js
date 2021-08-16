@@ -14,7 +14,7 @@ import { FormClose, Notification } from "grommet-icons";
 const theme = {
   global: {
     colors: {
-      brand: "#2287e6",
+      brand: "#2288e6",
     },
     font: {
       family: "Roboto",
